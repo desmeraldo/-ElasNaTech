@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARDÁPIO J KIDS FOOD</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> J KIDS food</h1>
+        <i id="lista" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="lista2">
+            <ul>
+                <li><a href="#"> Nossa História</a></li>
+                <li><a href="#"> Aonde estamos localizados?</a></li>
+                <li><a href="#"> Nossos principais ingredientes!</a></li>
+                <li><a href="#"> Entre em Contato Conosco</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2> Conheça nosso cardápio de inverno</h2>
+            <p>CREME DE CARNE COM LEGUMES - R$ 15,90</p>
+                Pote de 150gr com carne moída temperado com nosso mix de temperos especiais com chuchu, batata baroa, inhame, cenoura e mandioca</p>
+                
+            <p>CREME DE FRANGO COM ABOBORA, CENOURA E COUVE - R$ 12,90</p>
+                Pote de 150gr com frango desfiado temperado com nosso mix de temperos especiais com abobora, cenoura e couve.</p>
+                
+            <p>CREME DE ABOBORA COM ESPINAFRE - R$10,90</p>
+                Pote de 150gr com abobora com espinafre temperado com nosso mix de temperos especiais.</p>
+                
+            <p>CANJA DE GALINHA - R$ 15,90</p>
+                Pote de 150gr com peito de frango em cubos pequenos temperado com nosso mix de temperos especiais com batata baroa, cenoura.</p>
+                
+                </p>
+        </article>
+
+    </main>
+    <script>
+        function clickMenu() {
+            if (lista2.style.display == 'block') {
+                lista2.style.display = 'none'
+            } else {
+                lista2.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
